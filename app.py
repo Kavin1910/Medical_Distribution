@@ -15,14 +15,14 @@ warnings.filterwarnings('ignore')
 
 # Set page configuration
 st.set_page_config(
-    page_title="Bangalore Medical Distribution (Task by Lokesh)",
+    page_title="Bangalore Medical Distribution",
     page_icon="💊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # Title and description
-st.title("Bangalore Medical Distribution Analytics")
+st.title("Bangalore Medical Distribution (Task by Lokesh)")
 st.markdown("""
 This dashboard provides insights into medical product distribution across Bangalore regions.
 Analyze sales trends, regional performance, and product category distributions.
